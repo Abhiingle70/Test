@@ -1,1 +1,18 @@
-# Test
+# Test file 
+git status # tell you which file has been modifed updated or deleted	
+git branch # tells you which branch you are in.	
+git stash  # revert you changes
+git diff   # show the diff in code
+
+
+===local to remote========
+git add --all
+git commit -m "adding bus module"
+git push origin master
+
+
+git checkout #move from one branch to another
+git checkout -b feature/JIra-1234 # create a local branch 
+
+git fetch origin dev # to download branch from remote repo to local 
+git pull origin dev # to download the changes from remote branch to local branch
